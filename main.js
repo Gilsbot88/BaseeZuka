@@ -37,10 +37,10 @@ const starts = async (helga = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YouTube : ','silver'), color(`Helga Zexs`,'mediumseagreen'))
-console.log(color('> TikTok : ','silver'), color(`@ilhamgz_20`,'mediumseagreen'))
-console.log(color('> Instagram : ','silver'), color(`@helga_store20`,'mediumseagreen'))
-	helga.browserDescription = [ 'Base Helga', 'ubuntu', '3.0' ]
+	console.log(color('\n> YouTube : ','silver'), color(`Privasi`,'mediumseagreen'))
+console.log(color('> TikTok : ','silver'), color(`@masragilll18`,'mediumseagreen'))
+console.log(color('> Instagram : ','silver'), color(`privasi`,'mediumseagreen'))
+	helga.browserDescription = [ 'Base Ragil Bot', 'Heroku', '3.0' ]
 
 	helga.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('Helga Base'))
@@ -69,8 +69,8 @@ exec(`cd /sdcard/download && play *mp3`)
    
    helga.on('chat-update', async (mek) => {
         require('./helga.js')(helga, mek)
-        ownerNumber = ["6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6282138919347@s.whatsapp.net"
+        ownerNumber = ["6283136890848@s.whatsapp.net","6283136890848@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6283136890848@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
     
@@ -83,7 +83,7 @@ exec(`cd /sdcard/download && play *mp3`)
 			if (anu.action == 'add') {
 			const welkom = JSON.parse(fs.readFileSync('./database/welkom.json'))
         	if(!welkom.includes(mdata.id)) return
-			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;helga;;;\nFN:helga\nitem1.TEL;waid=6281337541779:6281337541779\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: 'ga ada@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;helga;;;\nFN:helga\nitem1.TEL;waid=6281337541779:6281337541779\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 		    num = anu.participants[0]
 			try {
 			ppimg = await helga.getProfilePicture(`${num.split('@')[0]}@c.us`)
