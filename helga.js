@@ -1,13 +1,13 @@
-/* Base Ori : Helgaa
-SC Ori : Helgaa
+/* Base Ori : Ragil
+SC Ori : Ragil
 
 
 Thanks a lot to
  
 > Allah SWT
-> Helga Ilham
+> Ragil
 
-> My parents
+> My Developer Bot
 > My Family
 
 Note : Jangan Hapus Nama Creator!
@@ -105,14 +105,14 @@ const autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-autorespon = false
-playmusic = false
+autorespon = true
+playmusic = true
 antidelete = false
-menusimpel = false
+menusimpel = true
 menuall = false
 baterai = {
 battery: "" || "Not detected",
-isCharge: "" || false
+isCharge: "" || true
 }
 offline = false
 publik = true
